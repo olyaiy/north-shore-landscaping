@@ -1,0 +1,290 @@
+This is a Next.js Landing page for a Vancouver Landscaping Company
+called "North Shore Landscaping".
+
+This is the structure of the project:
+
+Landing Page Structure with Copy
+
+1. Hero Section
+
+Headline (Centered):
+
+"Transform Your North Vancouver Landscape into a Personal Paradise"
+
+Subheadline (Centered):
+
+"Expertly crafting stunning outdoor spaces that reflect your vision and enhance your lifestyle."
+
+Social Proof (Centered):
+
+★★★★★
+
+"Rated 5 Stars by Over 250 Satisfied North Shore Clients"
+
+Badges (Centered):
+
+    [Eco-Friendly Practices Badge]
+    [Certified Landscape Professionals Badge]
+    [Best of North Vancouver Landscaping Award 2023 Badge]
+
+Call-to-Action Button (Centered):
+
+"Get Your Free Consultation"
+
+2. Services Section
+
+Heading:
+
+"Our Expert Services"
+
+    Custom Landscape Design
+
+    "Bring your vision to life with personalized designs that perfectly complement your home and lifestyle."
+
+    Garden Installation & Maintenance
+
+    "Enjoy vibrant, healthy gardens year-round with our professional planting and maintenance services."
+
+    Hardscaping & Outdoor Living Spaces
+
+    "Enhance your outdoor experience with patios, walkways, and outdoor kitchens crafted from premium materials."
+
+    Environmental Solutions
+
+    "Commit to sustainability with eco-friendly practices and native plant selections that support the local ecosystem."
+
+3. About Us Section
+
+Heading:
+
+"Your Trusted North Vancouver Landscapers"
+
+"For over 20 years, North Shore Landscaping has been transforming ordinary yards into extraordinary outdoor spaces. As a family-owned business rooted in North Vancouver, we combine local expertise with personalized service to deliver exceptional results."
+
+4. Testimonials Section
+
+Heading:
+
+"What Our Clients Are Saying"
+
+"North Shore Landscaping turned our backyard into a paradise! Their attention to detail and commitment to sustainability made all the difference."
+— Emily R., North Vancouver
+
+"Professional, reliable, and creative. Our new garden is the envy of the neighborhood."
+— James and Linda S., West Vancouver
+
+"Their team transformed our outdoor space beyond our expectations. We love spending time in our new garden!"
+— Michael T., Deep Cove
+
+5. Call-to-Action Section
+
+Heading:
+
+"Ready to Elevate Your Outdoor Living?"
+
+"Contact us today to start planning your dream outdoor space. Whether it's a complete redesign or regular maintenance, we're here to help."
+
+Call-to-Action Button:
+
+"Schedule a Consultation"
+
+6. Contact Section
+
+Heading:
+
+"Get in Touch"
+
+"Phone: (604) 123-4567
+Email: info@northshorelandscaping.ca
+Address: 123 Greenway Lane, North Vancouver, BC"
+
+"Or fill out our contact form, and we'll get back to you within 24 hours."
+
+Contact Form Fields:
+
+    Name (required)
+    Email (required)
+    Phone Number
+    Message
+
+7. Footer
+
+"© 2023 North Shore Landscaping | Privacy Policy | Terms of Service"
+
+Landing Page Design System
+
+Color Palette:
+
+    Primary Color: Deep Emerald Green (#005F3A)
+        Used for headings, icons, and accents to represent nature and growth.
+
+    Secondary Color: Pacific Blue (#0099CC)
+        Applied to backgrounds, sections, and subtle highlights to reflect the coastal environment.
+
+    Accent Color: Sunrise Gold (#FFCC33)
+        Utilized for call-to-action buttons and important highlights to draw attention.
+
+    Neutral Colors:
+        Light Grey Background: (#F9F9F9)
+        Dark Grey Text: (#333333)
+        Ensures readability and balance throughout the page.
+
+Typography:
+
+    Headings: 'Montserrat', sans-serif
+        Weight: Bold
+        Style: Uppercase for main headings to emphasize importance.
+        Color: Primary Color (#005F3A)
+
+    Body Text: 'Lato', sans-serif
+        Weight: Regular
+        Color: Dark Grey (#333333)
+        Size: 16px for standard text, ensuring readability.
+
+    CTA Buttons: 'Montserrat', sans-serif
+        Weight: Semi-Bold
+        Color: Dark Grey (#333333) on Accent Color background.
+
+Imagery:
+
+    Hero Background Image:
+        High-resolution image of a beautifully landscaped North Vancouver property.
+        Apply a subtle dark overlay (black at 30% opacity) for text readability.
+
+    Service Images:
+        Use real photos showcasing each service.
+        Images should be cohesive in style and quality.
+
+    Testimonials:
+        Include photos of clients' transformed outdoor spaces (with permission).
+
+Icons and Badges:
+
+    Icons:
+        Use flat, minimalist icons for services.
+        Colors align with the Primary and Secondary colors.
+
+    Badges:
+        Displayed prominently in the hero section.
+        Designed with gold accents to stand out against the background.
+        Examples include eco-friendly symbols, certification logos, and award emblems.
+
+Buttons:
+
+    Primary CTA Buttons:
+        Background Color: Sunrise Gold (#FFCC33)
+        Text Color: Dark Grey (#333333)
+        Shape: Slightly rounded corners (5px radius)
+        Hover Effect: Background color darkens slightly; cursor changes to pointer.
+
+    Secondary Buttons:
+        Background Color: Transparent with a solid border in Primary Color.
+        Text Color: Primary Color
+        Hover Effect: Background fills with Primary Color; text color changes to white.
+
+Layout and Spacing:
+
+    Grid System:
+        Based on a 12-column grid for consistency.
+
+    Spacing:
+        Adequate white space between sections and elements.
+        Section Padding: 60px top and bottom on desktop; 40px on mobile.
+
+    Alignment:
+        Centered text in the hero section.
+        Left-aligned text in other sections for readability.
+
+Navigation:
+
+    Header:
+        Background: Transparent over hero section; solid white background on scroll.
+        Logo Placement: Left side.
+        Menu Items: Right side, using 'Lato' font, dark grey color.
+
+    Sticky Navigation:
+        Remains at the top of the page when scrolling.
+        Shrinks slightly in height for unobtrusiveness.
+
+Footer:
+
+    Background Color: Darker shade of Primary Color (#004730)
+    Text Color: Light Grey (#F9F9F9)
+    Content:
+        Quick links to important pages.
+        Social media icons (Facebook, Instagram, Twitter) in white.
+        Contact information repeated for accessibility.
+
+Interactive Elements:
+
+    Forms:
+        Input Fields: Full-width on mobile, aligned labels above fields.
+        Submit Button: Styled like CTA buttons.
+
+    Hover Effects:
+        Links and buttons change color or underline to indicate interactivity.
+
+    Animations:
+        Subtle fade-in effects for sections as the user scrolls.
+        Parallax scrolling effect on the hero background image for depth.
+
+Responsive Design:
+
+    Mobile Optimization:
+        Breakpoints: Designed for common screen widths (e.g., 320px, 768px, 1024px).
+        Navigation: Collapses into a hamburger menu on mobile devices.
+        Text Size: Scales appropriately for readability on smaller screens.
+        Images: Responsive images that adjust to screen size without losing quality.
+
+Accessibility:
+
+    Contrast Ratios:
+        All text meets or exceeds WCAG AA standards for contrast.
+
+    Alt Text:
+        Descriptive alt text for all images and icons.
+
+    Keyboard Navigation:
+        Ensure all interactive elements are accessible via keyboard.
+
+    ARIA Labels:
+        Use appropriate ARIA labels for screen readers, especially on forms and navigation.
+
+Additional Elements:
+
+    Social Proof:
+        Star Rating: Gold stars (Accent Color) displayed prominently.
+        Client Logos: If applicable, display logos of notable clients.
+
+    Typography Hierarchy:
+        H1 (Hero Headline): 48px on desktop, 36px on mobile.
+        H2 (Section Headings): 32px on desktop, 28px on mobile.
+        H3 (Subheadings): 24px on desktop, 20px on mobile.
+        Body Text: 16px on desktop and mobile.
+
+Icons and Imagery Style Guide:
+
+    Style: Consistent style across all icons and images (e.g., flat design, line art).
+    Color Usage: Icons use Primary and Secondary colors to maintain brand consistency.
+    Image Filters: Apply a subtle warm filter to images for a cohesive look.
+
+Forms and Inputs:
+
+    Design:
+        Labels: Use 'Lato', bold, dark grey.
+        Input Fields: Light grey borders with slight rounding.
+        Placeholder Text: Italicized, dark grey.
+
+    Validation:
+        Real-time validation with clear error messages in red (#FF3333).
+
+SEO Considerations:
+
+    Headings:
+        Use proper HTML heading tags (H1, H2, H3) for content hierarchy.
+
+    Meta Descriptions:
+        Craft unique meta descriptions for the page.
+
+    Alt Text:
+        Include keywords related to landscaping and North Vancouver.
