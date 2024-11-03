@@ -331,7 +331,7 @@ This is the file structure of the project:
     │   ├── services
     │   │   ├── services.tsx
     │   │   └── service-item.tsx
-    ���   ├── about-us
+    │   ├── about-us
     │   │   └── about-us.tsx
     │   ├── testimonials
     │   │   ├── testimonials.tsx
