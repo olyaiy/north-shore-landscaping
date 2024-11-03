@@ -9,7 +9,7 @@ import { Leaf, Shield, Award } from "lucide-react"
 
 export function Hero() {
   return (
-    <section className="relative min-h-[100svh] overflow-hidden pt-16 sm:min-h-[90vh] sm:pt-16">
+    <section className="relative min-h-[100svh] overflow-hidden pt-20 sm:min-h-[90vh] sm:pt-16">
       {/* Decorative Elements - Adjusted size for mobile */}
       <div className="absolute left-0 top-0 -z-10 h-[300px] w-[300px] sm:h-[600px] sm:w-[600px] rotate-180 transform opacity-20">
         <Image
@@ -77,32 +77,11 @@ export function Hero() {
             Expertly crafting stunning outdoor spaces that reflect your vision and enhance your lifestyle.
           </p>
 
-          {/* CTA Buttons - Adjusted mobile width for second button */}
-          <div className="flex flex-col gap-3 sm:flex-row sm:gap-4 sm:justify-center w-full px-4 sm:px-0">
+          {/* CTA Buttons */}
+          <div className="flex flex-col gap-3 sm:flex-row sm:gap-4 sm:justify-center w-full">
             <Button
               size="lg"
-              variant="secondary"
-              className="w-full sm:w-auto bg-white/10 px-6 sm:px-8 text-base sm:text-lg font-semibold text-white backdrop-blur-md hover:bg-white/20 border border-white/20 transition-all"
-              onClick={() => {
-                const elementId = 'contact';
-                const element = document.getElementById(elementId);
-                if (element) {
-                  const navbarHeight = 64;
-                  const elementPosition = element.getBoundingClientRect().top;
-                  const offsetPosition = elementPosition + window.pageYOffset - navbarHeight;
-
-                  window.scrollTo({
-                    top: offsetPosition,
-                    behavior: 'smooth'
-                  });
-                }
-              }}
-            >
-              Get Your Free Consultation
-            </Button>
-            <Button
-              size="lg"
-              className="w-[90%] mx-auto sm:w-auto bg-emerald-600 px-6 sm:px-8 text-base sm:text-lg font-semibold text-white transition-all hover:bg-emerald-500"
+              className="w-auto sm:w-auto bg-white/10 text-base sm:text-lg font-semibold text-white backdrop-blur-md hover:bg-white/20 border border-white/20 transition-all"
               onClick={() => {
                 const elementId = 'portfolio';
                 const element = document.getElementById(elementId);
@@ -119,6 +98,26 @@ export function Hero() {
               }}
             >
               View Our Projects
+            </Button>
+            <Button
+              size="lg"
+              className="w-full sm:w-auto bg-emerald-600 text-base sm:text-lg font-semibold text-white transition-all hover:bg-emerald-500"
+              onClick={() => {
+                const elementId = 'contact';
+                const element = document.getElementById(elementId);
+                if (element) {
+                  const navbarHeight = 64;
+                  const elementPosition = element.getBoundingClientRect().top;
+                  const offsetPosition = elementPosition + window.pageYOffset - navbarHeight;
+
+                  window.scrollTo({
+                    top: offsetPosition,
+                    behavior: 'smooth'
+                  });
+                }
+              }}
+            >
+              Get Your Free Consultation
             </Button>
           </div>
 
