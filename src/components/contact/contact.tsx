@@ -120,18 +120,18 @@ export function Contact() {
                 <div
                   key={index}
                   onClick={item.clickable ? item.onClick : undefined}
-                  className={`flex items-center gap-4 rounded-xl bg-emerald-50 p-4 sm:p-5 
+                  className={`flex items-center gap-2 sm:gap-4 rounded-xl bg-emerald-50 p-3 sm:p-5 
                     ${item.clickable ? "cursor-pointer hover:bg-emerald-100" : ""} 
                     transition-colors`}
                 >
-                  <div className="flex h-12 w-12 sm:h-14 sm:w-14 items-center justify-center rounded-full bg-emerald-600 flex-shrink-0">
-                    <item.icon className="h-6 w-6 sm:h-7 sm:w-7 text-white" />
+                  <div className="flex h-10 w-10 sm:h-14 sm:w-14 items-center justify-center rounded-full bg-emerald-600 flex-shrink-0">
+                    <item.icon className="h-5 w-5 sm:h-7 sm:w-7 text-white" />
                   </div>
-                  <div className="min-w-0">
-                    <p className="font-montserrat text-sm sm:text-base font-semibold uppercase tracking-wider text-emerald-800">
+                  <div className="min-w-0 flex-1">
+                    <p className="font-montserrat text-xs sm:text-base font-semibold uppercase tracking-wider text-emerald-800">
                       {item.title}
                     </p>
-                    <span className="text-base sm:text-xl font-semibold text-emerald-950 break-words">
+                    <span className="text-sm sm:text-xl font-semibold text-emerald-950 break-words">
                       {item.content}
                     </span>
                   </div>
