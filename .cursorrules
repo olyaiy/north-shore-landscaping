@@ -1,5 +1,5 @@
 This is a Next.js Landing page for a Vancouver Landscaping Company
-called "North Shore Landscaping".
+called "North Shore Landscaping". It is made with NextJS 15, React 19, ShadcnUI, framer-motion, lucide-react, and tailwindcss.
 
 This is the structure of the project:
 
@@ -53,7 +53,28 @@ Heading:
 
     "Commit to sustainability with eco-friendly practices and native plant selections that support the local ecosystem."
 
-3. About Us Section
+3. Portfolio Section
+
+Heading:
+
+"Our Featured Projects"
+
+Subheading:
+
+"Browse through our collection of transformed North Vancouver spaces"
+
+[Grid Layout of Project Cards]
+Each Project Card Contains:
+- High-quality image
+- Project title
+- Location
+- Brief description
+- Type of work (e.g., "Complete Landscape Design", "Garden Renovation")
+- "Before & After" slider (optional)
+
+[View More Projects Button]
+
+4. About Us Section
 
 Heading:
 
@@ -61,7 +82,7 @@ Heading:
 
 "For over 20 years, North Shore Landscaping has been transforming ordinary yards into extraordinary outdoor spaces. As a family-owned business rooted in North Vancouver, we combine local expertise with personalized service to deliver exceptional results."
 
-4. Testimonials Section
+5. Testimonials Section
 
 Heading:
 
@@ -76,7 +97,7 @@ Heading:
 "Their team transformed our outdoor space beyond our expectations. We love spending time in our new garden!"
 — Michael T., Deep Cove
 
-5. Call-to-Action Section
+6. Call-to-Action Section
 
 Heading:
 
@@ -88,7 +109,7 @@ Call-to-Action Button:
 
 "Schedule a Consultation"
 
-6. Contact Section
+7. Contact Section
 
 Heading:
 
@@ -107,7 +128,7 @@ Contact Form Fields:
     Phone Number
     Message
 
-7. Footer
+8. Footer
 
 "© 2023 North Shore Landscaping | Privacy Policy | Terms of Service"
 
@@ -288,3 +309,42 @@ SEO Considerations:
 
     Alt Text:
         Include keywords related to landscaping and North Vancouver.
+
+This is the file structure of the project:
+
+.
+├── public
+│   ├── images
+│   │   ├── hero-background.jpg
+└── src
+    ├── app
+    │   ├── favicon.ico
+    │   ├── fonts
+    │   ├── globals.css
+    │   ├── layout.tsx
+    │   └── page.tsx
+    ├── components
+    │   ├── hero
+    │   │   ├── hero.tsx
+    │   │   ├── social-proof.tsx
+    │   │   └── cta-button.tsx
+    │   ├── services
+    │   │   ├── services.tsx
+    │   │   └── service-item.tsx
+    ���   ├── about-us
+    │   │   └── about-us.tsx
+    │   ├── testimonials
+    │   │   ├── testimonials.tsx
+    │   │   └── testimonial-item.tsx
+    │   ├── call-to-action
+    │   │   └── call-to-action.tsx
+    │   ├── contact
+    │   │   ├── contact.tsx
+    │   │   ├── contact-form.tsx
+    │   │   └── contact-info.tsx
+    │   ├── footer
+    │   │   └── footer.tsx
+    │   └── ui
+    │       ├── all shadcn components
+    └── lib
+        └── utils.ts

@@ -70,3 +70,29 @@ body {
     @apply bg-background text-foreground;
   }
 }
+
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Optional: If you want to prevent content shifts during transitions */
+.overflow-control {
+  overflow-x: hidden;
+}
+
+/* Hide scrollbars while maintaining functionality */
+* {
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE and Edge */
+}
+
+/* Hide webkit scrollbars */
+*::-webkit-scrollbar {
+  display: none;
+}
