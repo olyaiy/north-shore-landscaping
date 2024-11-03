@@ -9,7 +9,7 @@ import { Leaf, Shield, Award } from "lucide-react"
 
 export function Hero() {
   return (
-    <section className="relative min-h-[100svh] overflow-hidden pt-20 sm:min-h-[90vh] sm:pt-16">
+    <section className="relative min-h-[100svh] overflow-hidden pt-16 sm:min-h-[90vh] sm:pt-16">
       {/* Decorative Elements - Adjusted size for mobile */}
       <div className="absolute left-0 top-0 -z-10 h-[300px] w-[300px] sm:h-[600px] sm:w-[600px] rotate-180 transform opacity-20">
         <Image
@@ -64,10 +64,10 @@ export function Hero() {
             </Badge>
           </div>
 
-          {/* Main Headline - Improved responsive typography */}
-          <h1 className="font-montserrat text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold uppercase tracking-tight text-white">
+          {/* Main Headline - Adjusted mobile typography and centering */}
+          <h1 className="font-montserrat text-4xl sm:text-4xl md:text-5xl lg:text-6xl font-bold uppercase tracking-tight text-white px-2">
             Transform Your <span className="text-emerald-400">North Vancouver</span> Landscape
-            <span className="block text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-light normal-case mt-2">
+            <span className="block text-3xl sm:text-3xl md:text-4xl lg:text-5xl font-light normal-case mt-2">
               into a Personal Paradise
             </span>
           </h1>
@@ -77,7 +77,7 @@ export function Hero() {
             Expertly crafting stunning outdoor spaces that reflect your vision and enhance your lifestyle.
           </p>
 
-          {/* CTA Buttons - Improved mobile layout */}
+          {/* CTA Buttons - Adjusted mobile width for second button */}
           <div className="flex flex-col gap-3 sm:flex-row sm:gap-4 sm:justify-center w-full px-4 sm:px-0">
             <Button
               size="lg"
@@ -102,7 +102,7 @@ export function Hero() {
             </Button>
             <Button
               size="lg"
-              className="w-full sm:w-auto bg-emerald-600 px-6 sm:px-8 text-base sm:text-lg font-semibold text-white transition-all hover:bg-emerald-500"
+              className="w-[90%] mx-auto sm:w-auto bg-emerald-600 px-6 sm:px-8 text-base sm:text-lg font-semibold text-white transition-all hover:bg-emerald-500"
               onClick={() => {
                 const elementId = 'portfolio';
                 const element = document.getElementById(elementId);

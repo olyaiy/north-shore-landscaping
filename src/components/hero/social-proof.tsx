@@ -16,19 +16,19 @@ export function SocialProof() {
           {[...Array(5)].map((_, i) => (
             <Star
               key={i}
-              className="h-7 w-7 fill-[#FFCC33] text-[#FFCC33]"
+              className="h-5 w-5 sm:h-7 sm:w-7 fill-[#FFCC33] text-[#FFCC33]"
               strokeWidth={1}
             />
           ))}
         </div>
-        <p className="text-lg font-medium text-white">
+        <p className="text-base sm:text-lg font-medium text-white">
           Rated 5 Stars by Over 250 Satisfied North Shore Clients
         </p>
-        <div className="flex flex-wrap justify-center gap-4 pt-2">
+        <div className="flex flex-wrap justify-center gap-2 sm:gap-4 pt-2">
           {['HomeStars', 'Google Reviews', 'BBB A+ Rating'].map((platform) => (
             <span 
               key={platform}
-              className="rounded-full bg-white/20 px-4 py-1 text-sm text-white"
+              className="rounded-full bg-white/20 px-3 sm:px-4 py-0.5 sm:py-1 text-xs sm:text-sm text-white"
             >
               {platform}
             </span>
