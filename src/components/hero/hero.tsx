@@ -9,7 +9,7 @@ import { Leaf, Shield, Award } from "lucide-react"
 
 export function Hero() {
   return (
-    <section className="relative min-h-[100svh] overflow-hidden pt-12 sm:min-h-[90vh] sm:pt-16">
+    <section className="relative min-h-[100svh] overflow-hidden pt-20 sm:min-h-[90vh] sm:pt-16">
       {/* Decorative Elements - Adjusted size for mobile */}
       <div className="absolute left-0 top-0 -z-10 h-[300px] w-[300px] sm:h-[600px] sm:w-[600px] rotate-180 transform opacity-20">
         <Image
